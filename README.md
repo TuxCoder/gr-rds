@@ -25,6 +25,38 @@ sudo ldconfig
 open apps/rds_rx.grc example flow graph in GNU Radio Companion.
 
 
+to change the rds values you need a tcp client.
+
+`nc 127.0.0.1 52001`
+
+set a value with
+`key value`
+
+### TCP Commands
+status:
+  disabled
+pty:
+  @param int programm type
+  https://en.wikipedia.org/wiki/Radio_Data_System#Program_types
+text:
+  @param string
+  radio test
+ps:
+  @param
+ta:
+  @param bool
+tp:
+  @param bool
+ms:
+  @param bool
+pi:
+  @param 
+af1:
+  @param double
+af2:
+  @param double
+
+
 ### Demos
 
 Quick example:
