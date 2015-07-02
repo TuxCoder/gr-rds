@@ -33,6 +33,7 @@ set a value with
 `key value`
 
 ### TCP Commands
+```
 status:
   disabled
 pty:
@@ -55,7 +56,7 @@ af1:
   @param double
 af2:
   @param double
-
+```
 
 ### Demos
 
